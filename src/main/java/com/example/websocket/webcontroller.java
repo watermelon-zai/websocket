@@ -41,7 +41,7 @@ public class webcontroller {
     @OnMessage
     public void onMessage(String message) {
         this.sendAll(message);
-        System.out.println("收到客户端的信息");
+        System.out.println("收到客户端的信息"+message);
     }
 
     /**
